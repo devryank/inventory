@@ -167,6 +167,14 @@ class Dashboard extends CI_Controller {
         }
     }
 
+    public function delete_user()
+    {
+        $id = $this->uri->segment(3);
+        $this->m_user->delete($id, 'tbl_user');
+
+        redirect('dashboard/user');
+    }
+
     public function edit_user($id)
     {
         if($this->session->userdata['level'] != 1){
