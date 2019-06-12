@@ -22,7 +22,7 @@
             </h3>
             <nav aria-label="breadcrumb">
               <ul class="breadcrumb">
-              <a href="<?php echo site_url('dashboard/add'); ?>" class="btn btn-primary mr-1">Tambah User</a>
+              <a href="<?php echo site_url('dashboard/add_user'); ?>" class="btn btn-primary mr-1">Tambah User</a>
               </ul>
             </nav>
           </div>
